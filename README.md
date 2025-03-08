@@ -1,27 +1,29 @@
 # Shimmer Loading Placeholder
 
-Shimmer Loading Placeholder - bu Flutter uchun yuklanish jarayonida vizual jozibali effekt yaratish uchun ishlatiladigan package. Bu paket yuklanayotgan ma'lumotlarning shaklini ko'rsatish orqali foydalanuvchilar uchun yanada yaxshiroq tajriba yaratadi.
+Shimmer Loading Placeholder is a Flutter package that provides a visually appealing shimmer effect for loading states. Instead of displaying empty spaces or spinners, it enhances the user experience by showing placeholders with an animated shimmer effect.
 
-## 📌 Xususiyatlar
+## 📌 Features
 
-✅ Shimmer effektli yuklanish joy tutgichi (placeholder)
-✅ Istalgan widgetga qo‘llash mumkin
-✅ Shimmer ranglarini sozlash imkoniyati
-✅ Animatsiya tezligini boshqarish
-✅ ListView va GridView bilan mos ishlash
-✅ Burchaklarni yumaloqlash
-✅ Shimmer yo‘nalishini o‘zgartirish (chapdan o‘ngga yoki teskari)
+✅ Shimmer effect for loading placeholders  
+✅ Compatible with any widget  
+✅ Customizable shimmer colors  
+✅ Adjustable animation speed  
+✅ Works seamlessly with ListView and GridView  
+✅ Supports rounded corners  
+✅ Configurable shimmer direction (left-to-right or right-to-left)  
 
-## 📦 O‘rnatish
+## 📦 Installation
+
+Add the following dependency to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
   shimmer_loading_placeholder: latest_version
 ```
 
-## 🚀 Ishlatish
+## 🚀 Usage
 
-### 1️⃣ Oddiy ShimmerContainer
+### 1️⃣ Basic ShimmerContainer
 
 ```dart
 import 'package:flutter/material.dart';
@@ -50,7 +52,7 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-### 2️⃣ ListView bilan ishlatish
+### 2️⃣ Using with ListView
 
 ```dart
 ListView.builder(
@@ -67,7 +69,7 @@ ListView.builder(
 )
 ```
 
-### 3️⃣ Shimmer effektining ranglarini o‘zgartirish
+### 3️⃣ Customizing shimmer colors
 
 ```dart
 ShimmerContainer(
@@ -77,7 +79,7 @@ ShimmerContainer(
 )
 ```
 
-### 4️⃣ GridView bilan ishlatish
+### 4️⃣ Using with GridView
 
 ```dart
 GridView.builder(
@@ -92,25 +94,29 @@ GridView.builder(
 )
 ```
 
-## 🛠 Sozlamalar
-| Parametr | Turi | Tavsif |
-|----------|------|--------|
-| `child` | `Widget` | Ichidagi widget |
-| `baseColor` | `Color` | Asosiy fon rangi |
-| `highlightColor` | `Color` | Shimmer yaltirash rangi |
-| `duration` | `Duration` | Animatsiya davomiyligi |
-| `borderRadius` | `BorderRadius` | Burchaklarni yumaloqlash |
+## 🛠 Configuration
 
-## 🧪 Testlar
-Paketni test qilish uchun:
+| Parameter        | Type           | Description |
+|-----------------|---------------|-------------|
+| `child`         | `Widget`       | The widget inside the shimmer container |
+| `baseColor`     | `Color`        | The base background color |
+| `highlightColor` | `Color`       | The shimmer highlight color |
+| `duration`      | `Duration`     | Animation duration |
+| `borderRadius`  | `BorderRadius` | Corner radius customization |
+
+## 🧪 Testing
+
+To run tests, use the following command:
+
 ```sh
 flutter test
 ```
 
-## 📜 Litsenziya
-Bu loyiha MIT litsenziyasi asosida tarqatiladi.
+## 📜 License
+
+This project is licensed under the MIT License.
 
 ---
 
-Paketni ishlatishda muammo yuzaga kelsa yoki yangi takliflaringiz bo‘lsa, [GitHub Issues](https://github.com/toychibayev/package_shimmer) bo‘limiga murojaat qiling. 🚀
+If you encounter any issues or have feature suggestions, feel free to open an issue on [GitHub](https://github.com/toychibayev/package_shimmer). 🚀
 
