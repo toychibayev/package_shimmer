@@ -1,5 +1,5 @@
 name: package_shimmer
-description: "A new Flutter package project."
+description: "A Flutter package that provides a customizable shimmer loading effect for placeholders, enhancing the user experience during data loading."
 version: 0.0.1
 homepage:
 
