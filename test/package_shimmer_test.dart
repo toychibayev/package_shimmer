@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:package_shimmer/src/shimmer_container.dart';
+import 'package:shimmer_loading_placeholder/package_shimmer.dart';
 
 void main() {
   testWidgets('ShimmerContainer renders correctly', (WidgetTester tester) async {
