@@ -112,5 +112,5 @@ Bu loyiha MIT litsenziyasi asosida tarqatiladi.
 
 ---
 
-Paketni ishlatishda muammo yuzaga kelsa yoki yangi takliflaringiz bo‘lsa, [GitHub Issues](https://github.com/username/shimmer_loading_placeholder/issues) bo‘limiga murojaat qiling. 🚀
+Paketni ishlatishda muammo yuzaga kelsa yoki yangi takliflaringiz bo‘lsa, [GitHub Issues](https://github.com/toychibayev/package_shimmer) bo‘limiga murojaat qiling. 🚀
 
